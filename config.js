@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = "94786802371"
+global.owner = "94755319464"
 global.mongodb = process.env.MONGODB_URI || "mongodb://ugykkx9yl6qknshgcown:lJ18kzUxXP5IqyyUZZc@bdzoktb5vy7mozj8zh6k-mongodb.services.clever-cloud.com:2319/bdzoktb5vy7mozj8zh6k"
 global.port= process.env.PORT || 3000
 global.email = 'nimeshofficial.info@gmail.com'
